@@ -1,0 +1,42 @@
+body{
+    padding: 0px;
+    margin: 0px; 
+}
+/* 
+.header-image{
+width: 100%;
+position: relative;
+}
+*/
+/* .texto-header{
+    position: absolute;
+    top:200px;
+    color: white;
+    z-index: 2;   
+    margin: 500px; 
+} */
+.header-img{
+    position: relative; 
+}
+.navbar{
+    position: absolute;
+    z-index: 1;
+   
+}
+img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.navbar, ul li a{
+    color: #fff;
+
+}
+
+.navbar-toggler{
+    color: #fff;
+}
+
+.navbar-brand{
+    color: #fff;
+}
