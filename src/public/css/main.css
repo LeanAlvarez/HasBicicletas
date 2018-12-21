@@ -143,6 +143,9 @@ section .section-title {
 
 /* /footer */
 
+
+
+
 /* mediaqueries */
 @media screen and (max-width: 1280px){
     .titulos{
@@ -153,6 +156,13 @@ section .section-title {
         border-bottom: 2px solid #fff;
         width: 20px;
     }
-  
+    .grande{
+        display:none;
+    }
 
+}
+@media screen and (min-width: 1279px){
+    .pequeño{
+        display: none;
+    }
 }
