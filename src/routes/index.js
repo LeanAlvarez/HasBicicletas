@@ -10,6 +10,12 @@ router.get('/', (req,res) => {
     })
 })
 
+router.get('/contacto', (req,res) => {
+    res.render('contact', {
+        title: 'Has Bicicletas | Contacto'
+    })
+})
+
 
 
 module.exports = router

@@ -1,0 +1,48 @@
+<% include partials/head.ejs%>
+
+<div class="container container-mensaje-contacto ">
+    <div class="mensaje-contacto">
+        <h2 class="text-center">Dejanos tus consultas</h2>
+        <p class="text-center mt-5">envianos tu mensaje que te estaremos respondiendo a la brevedad!</p>
+    </div>
+</div>
+<div class="container form-container d-flex justify-content-center">
+	<div class="row ml-0 mr-0">
+
+		<form role="form" id="contact-form" class="contact-form" method="POST">
+                    <div class="row ml-0 mr-0">
+                		<div class="col-md-6">
+                  		<div class="form-group">
+                            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Nombre">
+                  		</div>
+                  	</div>
+                    	<div class="col-md-6">
+                  		<div class="form-group">
+                            <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="E-mail">
+                  		</div>
+                  	</div>
+                  	</div>
+                  	<div class="row">
+                  		<div class="col-md-12">
+                  		<div class="form-group">
+                            <textarea class="form-control textarea" rows="2" name="Message" id="Message" placeholder="Mensaje"></textarea>
+                  		</div>
+                  	</div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-12">
+                  <button type="submit" class="btn main-btn pull-right">Enviar Mensaje</button>
+                  </div>
+                  </div>
+                </form>
+	</div>
+</div>
+
+<div class="container d-flex justify-content-center mt-5 mb-5">
+    <div class="row">
+        <a href="/" class="btn btn-danger">Volver al Home</a>
+    </div>
+</div>
+
+<% include partials/footer.ejs%>
+
