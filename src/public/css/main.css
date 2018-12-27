@@ -15,6 +15,15 @@ position: relative;
     z-index: 2;   
     margin: 500px; 
 } */
+
+h1, h2, h3{
+    font-family: 'Playfair Display SC', serif;
+}
+
+p, i, a, strong, .h6, .btn, .form-group{
+    font-family: 'Roboto Mono', monospace;
+}
+
 .header-img{
     position: relative; 
 }
@@ -45,6 +54,7 @@ position: relative;
 li a:hover{
     border-bottom: 1px solid white;
     font-weight: bold;
+    color: red;
 }
 
 .navbar-toggler{
@@ -55,7 +65,13 @@ li a:hover{
     color: #fff;
 }
 .separacion{
-    width: 20px;
+    width: 100px;
+    height: 1.5px;
+    background-color:red;
+}
+
+.separacion1{
+    width: 50px;
     height: 1.5px;
     background-color:red;
 }
